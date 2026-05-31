@@ -11,8 +11,8 @@
 \usepackage{graphicx}
 \usepackage{outlines}
 
-\setlist[itemize]{leftmargin=*}
-\linespread{1.15}
+\setlist[itemize]{leftmargin=*, itemsep=1.5pt, topsep=1.5pt, parsep=0pt}
+\linespread{1.08}
 \geometry{a4paper,
     left={0.5in},
     top={0.4in}, 
@@ -23,7 +23,7 @@
 \pagenumbering{gobble}
 \newenvironment{csection}[2]{
     \textbf{#1} 
-    \vspace{0.15cm} 
+    \vspace{0.12cm} 
     \hrule 
     {#2}
 }{}

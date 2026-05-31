@@ -4,6 +4,10 @@
 \usepackage{fontawesome}
 \usepackage{wasysym} 
 \usepackage{tikz}
+\usepackage{xcolor}
+
+\definecolor{linkblue}{HTML}{0B5394}
+\hypersetup{colorlinks=true, urlcolor=linkblue}
 
 \newcommand{\roundpic}[4][]{
   \tikz\node [circle, minimum width = #2,
@@ -23,23 +27,23 @@
     \small{
         \clink{
             \href{mailto:felix.moenckemeyer@gmail.com}{felix.moenckemeyer@gmail.com} \textbf{·}
-            {\fontdimen2\font=0.75ex +49 176 2354 9970}
+            {\fontdimen2\font=0.75ex +41 78 844 2300}
             \textbf{·}
-            {\fontdimen2\font=0.75ex Köln, Germany}
+            {\fontdimen2\font=0.75ex Z\"urich, Schweiz}
         }
         \begin{flushleft}
-            \footnotesize Hochmotivierter \textbf{Software Entwickler} (IoT \& Fullstack) mit großem Interesse an komplexen Problemenstellungen. Mehr als 3 Jahre Erfahrung in der Entwicklung von industrieller Software von der Maschine bis in die Cloud. \textbf{Projektleitung}, Anforderungsanalyse, Planung, Testing und Dokumentation.
+            \footnotesize Hochmotivierter \textbf{Software Engineer} (GenAI, Agentic \& Cloud) mit großem Interesse an komplexen Problemen. 7+ Jahre Erfahrung in der Entwicklung produktionsreifer Software von der Maschine bis in die Cloud, zuletzt als \textbf{Forward Deployed Engineer}, der GenAI-, RAG- und agentenbasierte L\"osungen direkt in den Teams von Unternehmenskunden umsetzt \textemdash{} von der Architektur bis zur Produktiv\"ubergabe.
         \end{flushleft}
     }
     } &
     {
             \hfill
-            \roundpic[]{4cm}{4cm}{images/portrait.jpeg}
+            \roundpic[]{3.2cm}{3.2cm}{images/portrait.jpeg}
         }
 \end{tabularx}
-\vspace{-5mm}
+\vspace{-4mm}
 \begin{center}
-    \small "Ich möchte maßgeschneiderte Lösungen entwickeln und moderne Technologien nutzen, um einfachere, schnellere und zuverlässigere Software zu entwickeln."
+    \small "Ich möchte vertrauenswürdige, zuverlässige Systeme bauen, die relevante Probleme lösen."
     %\vspace{5mm}
 
     %Softwareentwickler für Int Anwendungen mit acht Jahren Erfahrung in der Entwicklung einer breiten Palette von Tools für iOS und Android für eine Reihe von Kunden. 
@@ -47,19 +51,29 @@
     %Ich verstehe den Lebenszyklus von Backendsoftware sehr gut und bin sehr fähig in allen Aspekten der Entwicklung, von der Projektplanung über die Anforderungserfassung bis hin zum Schreiben und Testen von Code, Erstellen von Dokumentation. 
     %Ich bin derzeit auf der Suche nach einer langfristigen Position, die es mir ermöglicht, meine Fähigkeiten im Projektmanagement weiter zu verbessern.
 
-    \vspace{2mm}
+    \vspace{4mm}
     \begin{tabularx}{\linewidth}{@{}*{2}{X}@{}}
         % left side %
         {
         \csection{ERFAHRUNG}{\small
             \begin{itemize}
                 % item 1 %
-                \item \frcontent{vivenu GmbH}{Backend Developer}{\href{https://www.linkedin.com/feed/update/urn:li:activity:6848162070496641025/}{Zuverlässige, skalierbare und einfache} Lösungen für das Ticketing für unsere API-First-Kunden.}{Since September 2021}
-                \item \frcontent{Senseering GmbH}{Full Stack Software Engineer - Köln}{
-                          Entwickler einer dezentralen Plattform für den Datenaustausch \& Software Consultant - IoT Infrastructure Solutions in mehreren Projekten im Bereich der produzierenden Industrie.}{April 2020 - August 2021}
-                \item \frcontent{Senseering GmbH}{Software Engineer - Aachen}{
-                          Entwickler einer dezentralen Plattform für den Datenaustausch im Sinne von \href{https://www.bmwi.de/Redaktion/DE/Dossier/gaia-x.html}{GAIA-X}. }{September 2018 - April 2020}
-                \item \frcontent{WZL of the RWTH Aachen}{Werksstudent - Aachen}{Erfassung von SPS- und Sensordaten für eine interne wissenschaftliche Datenbank. Verbesserung der Zugänglichkeit von Echtzeit- und historischen Daten über einen institutsweiten MQTT-Server und anschließende Rohdatenerfassung.}{April 2018 - April 2020}
+                \item {\textbf{Microsoft \textbf{·} Industry Solutions Engineering (ISE)} \leavevmode\newline
+                {\footnotesize
+                \raggedright
+                Forward Deployed Software Engineer - Z\"urich \leavevmode\newline
+                Entwicklung produktionsreifer GenAI-, Agentic- und Azure-Cloud-L\"osungen direkt in den Teams von Unternehmenskunden.
+                \begin{itemize}[leftmargin=*, itemsep=0pt, topsep=0pt, parsep=0pt]
+                    \item Agentenbasierte Dev-Pipeline von Figma bis gemergtem PR: 62 Copilot-PRs.
+                    \item RAG / AI Search in Produktion; 8x schnellere Indexierung bei 100k+ Dokumenten.
+                    \item Benchmark: Edge-Workflow-Engine mit $\sim$9.000 Workflows/Sek. (10x Verbesserung).
+                    \item Engagement-übergreifend: Kunden-Enablement, Mentoring \& Open-Source-Samples.
+                \end{itemize}
+                \textit{Seit Juli 2022}}}
+                \item \frcontent{vivenu GmbH}{Backend Developer}{\href{https://www.linkedin.com/feed/update/urn:li:activity:6848162070496641025/}{Zuverlässige, skalierbare und einfache} Lösungen für das Ticketing für unsere API-First-Kunden.}{September 2021 - Juni 2022}
+                \item \frcontent{Senseering GmbH}{Full Stack Software Engineer - Aachen / Köln}{
+                          Entwickler einer dezentralen Plattform für den Datenaustausch im Sinne von \href{https://www.bmwi.de/Redaktion/DE/Dossier/gaia-x.html}{GAIA-X} \& IoT-Infrastruktur-Berater in mehreren Projekten der produzierenden Industrie.}{September 2018 - August 2021}
+                \item \frcontent{WZL of the RWTH Aachen}{Werksstudent - Aachen}{Erfassung von SPS- und Sensordaten für eine interne wissenschaftliche Datenbank über einen institutsweiten MQTT-Server.}{April 2018 - April 2020}
             \end{itemize}
         }
         \csection{AUSBILDUNG}{\small
@@ -75,21 +89,24 @@
         {
                 \csection{SKILLS}{\small
                     \begin{itemize}
-                        \item \textbf{Programmiersprachen \& Datenbanken} \newline
-                              {\footnotesize Nodejs, Typescript, Vue, Python, MySQL, Mongodb, Influxdb, Redis}
-                        \item \textbf{Cloud \& Technologien} \newline
-                              {\footnotesize S3/Azure Blob Storage, EC2, CodeBuild, CodePipeline, CloudFront, Grafana, docker, Node Red, Github Actions, DynamoDB, AWS Cognito, Auth0, IOTA, Nginx, Route 53, ELB, API Gateway, AWS Lambda}
+                        \item \textbf{Programmierung} \newline
+                            {\footnotesize Python, C\# / .NET, TypeScript}
+                        \item \textbf{KI \& Agentic Systems} \newline
+                              {\footnotesize RAG, Azure AI Search, Agentic Workflows, GitHub Copilot, MCP, Azure Durable Functions, LLM-Evaluierung}
+                        \item \textbf{Cloud \& Daten} \newline
+                            {\footnotesize Azure-Cloud-Architektur, Functions, Container Apps, App Service, Static Web Apps, Microsoft Fabric, Synapse, Databricks}
+                        \item \textbf{Engineering} \newline
+                            {\footnotesize CI/CD, DevContainers, Bicep, azd, Entra ID, OpenTelemetry, Playwright, Lasttests, ADRs}
                         \item \textbf{Sprachen} \newline
-                              {\footnotesize Deutsch, Englisch}
+                            {\footnotesize Deutsch (Muttersprache), Englisch (fließend)}
                     \end{itemize}
                 }
                 \csection{PROJEKTE}{\small
                     \begin{itemize}
-                        \item \frcontent{warrant \clink{\href{https://github.com/NemesisFLX/warrant}{[NemesisFLX/warrant]}}}{ Optionsscheinpreisrechner mit einer einfachen Typescript API }{}{Warrants, Typescript, Trading, Open Source}
-                        \item \frcontent{iBoll \clink{\href{https://www.bollfilter.com/de/}{[Bollfilter IoT Platform]}}}{ Analyse von IoT-Echtzeitdaten und Servicebereitstellung mit Anomalieerkennung }{}{Serverless, Vue, MQTT, Manufacturing}
-                        \item \frcontent{spaicer \clink{\href{https://www.spaicer.de/}{[spaicer.de]}}}{Skalierbare adaptive Produktionssysteme durch KI-basierte Resilienz-Optimierung - Projektverantwortung }{}{Projektverantwortung, IoT, Machine Learning, KI}
-                        \item \frcontent{obsidian \clink{\href{https://github.com/NemesisFLX/obsidian}{[NemesisFLX/obsidian]}}}{Eine Nodejs-basierte Immutability-Schicht für (industrielle) Daten}{}{Nodejs, IOTA}
-                        \item \frcontent{MyDataEconomy \clink{\href{https://www.mydataeconomy.com}{[mydataeconomy.com]}}}{Dezentrale IoT-Daten-Sharing-Plattform für souveränen Datenaustausch}{}{GAIA-X, Nodejs, Docker, IOTA, InfluxDB}
+                        \item \frcontent{Indexadillo \clink{\href{https://github.com/Azure-Samples/indexadillo}{[GitHub]}}}{Open-Source-Beispiel für skalierbare, parallele Dokumentenindexierung mit Azure Durable Functions. Veröffentlicht auf Azure-Samples, Microsoft Learn \& AZD Awesome.}{}{Azure, Durable Functions, RAG, Open Source}
+                        \item \frcontent{Build Your ETF \clink{\href{https://build-your-etf.stromflix.com/}{[App]}}}{Web-App, die ETF-Portfoliokombinationen mit OR-Tools nach gewünschter Länder- und Branchenallokation optimiert.}{}{OR-Tools, Optimierung, TypeScript, Finance}
+                        \item \frcontent{RehPublic \clink{\href{https://rehpublic.stromflix.com/}{[App]}}}{KI-gestützte Kamerafallen-Plattform, die Wildtiere automatisch erkennt und kartiert – für das Biodiversitätsmonitoring.}{}{KI, Computer Vision, Python, Geodaten}
+                        \item \frcontent{Hallucination News \clink{\href{https://hallucination.news/}{[Site]}}}{Agentenbasiertes System, das RSS-Feeds überwacht, Artikel mit Echtzeit-Webrecherche faktenprüft und verifizierte Analysen veröffentlicht.}{}{GenAI, RAG, Agents, Astro}
                     \end{itemize}
                 }
             }
@@ -98,14 +115,16 @@
 \vspace{-8mm}
 \begin{center}
 
-    \begin{tabularx}{\linewidth}{@{}*{3}{X}@{}}
-        \centering{\href{https://www.linkedin.com/in/felix-m\%C3\%B6nckemeyer-6887a61a0}{ \Large  \faLinkedinSquare } }
+    \begin{tabularx}{\linewidth}{@{}>{\hsize=.85\hsize\centering\arraybackslash}X>{\hsize=.85\hsize\centering\arraybackslash}X>{\hsize=.85\hsize\centering\arraybackslash}X>{\hsize=1.45\hsize\centering\arraybackslash}X@{}}
+        \href{https://www.linkedin.com/in/felix-m\%C3\%B6nckemeyer-6887a61a0}{ \Large  \faLinkedinSquare }
                                     &
-        \centering{ \href{https://github.com/NemesisFLX}{\Large \faGithub } }
-                                    & {\hspace{25mm}\href{mailto:felix.moenckemeyer@gmail.com}{\Large \faEnvelope }}
-        \\\centering\small Felix Mönckemeyer &
-        \centering\small NemesisFLX &
-        \centering\small felix.moenckemeyer@gmail.com
+        \href{https://github.com/StromFLIX}{\Large \faGithub }
+                                    & \href{https://stromflix.com/}{\Large \faGlobe }
+                                    & \href{mailto:felix.moenckemeyer@gmail.com}{\Large \faEnvelope }
+        \\\small Felix Mönckemeyer &
+        \small StromFLIX &
+        \small stromflix.com &
+        \small felix.moenckemeyer@gmail.com
     \end{tabularx}
 
 \end{center}
